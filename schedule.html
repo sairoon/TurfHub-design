@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TurfHub | Booking</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<section class="sign-bg">
+  <!--nav section-->
+  <header class="">
+    <nav class="navbar navbar-dark navbar-expand-md nav-bg pt-4">
+      <div class="container">
+        <a href="index.html" class="navbar-brand text-white" aria-label="website logo"><img src="img/logo.png" alt="Logo"></a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header nav-bg">
+            <a href="#" class="navbar-brand text-white " aria-label="website logo"><img src="img/logo.png" alt="Logo"></a>
+            <button type="button" class="btn-close btn-close-white me-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body off-canvas" align="center">
+            <ul class="navbar-nav ms-md-5">
+              <li><a href="index.html" class="nav-link text-white" aria-label="all turf page">All Turf</a></li>
+              <li><a href="index.html" class="nav-link text-white" aria-label="contact page">Contact</a></li>
+            </ul>
+            <ul class="navbar-nav ms-md-auto">
+              <li><a href="#" class="btn btn-light rounded-5 px-4 fw-bolder" aria-label="sign up">Profile</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--main content-->
+  <div class="container">
+    <div class="row justify-content-center schedule-content">
+      <div align="center">
+        <p class="text-white sign-text" aria-label="page title">Book your Turf</p>
+<!--        <p class="sign-subtext text-white">Your Event from here</p>-->
+      </div>
+
+      <div class="col-md-6 pt-3">
+        <div class="card rounded-4 bg-transparent border-0">
+          <img src="img/turf1.jpg" class="rounded-4 schedule-img" alt="" aria-label="turf image">
+          <div class="card-body text-white">
+            <p class="card-name card-title" aria-label="turf title">Turf name is here 1</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci autem commodi, enim laudantium porro quidem tempore! Deleniti, earum similique!</p>
+            <p>Location: consectetur adipisicing elit. Accusantium adipisci autem commodi,</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 py-2">
+        <div class="card card-body bg-dark rounded-4 mb-3">
+          <p class="card-title text-white sign-text">Schedule</p>
+          <p class="card-subtitle sign-subtext text-white">Your Event from here</p>
+          <form class="mt-2" autocomplete="off">
+
+            <!--<label for="" class="text-white">Choose your turf</label>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+              <option selected disabled>Open this to select your turf</option>
+              <option value="1">Turf name is here 1</option>
+              <option value="2">Turf name is here 2</option>
+              <option value="3">Turf name is here 3</option>
+              <option value="4">Turf name is here 4</option>
+              <option value="5">Turf name is here 5</option>
+              <option value="6">Turf name is here 6</option>
+            </select>-->
+
+            <div class="mb-2">
+              <label for="" class="text-white">Date of Event</label>
+              <input class="form-control py-3" type="date" id="scheduleDate" name="scheduleDate" aria-label="Enter your event date"> <!--min="<?php echo date('Y-m-d'); ?>"-->
+            </div>
+            <div class="mb-2 mt-3">
+              <label for="" class="text-white">Select your time</label>
+              <div class="row bg-white pt-2 ps-3 mb-3">
+                <div class="col-6">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="1">
+                    <label class="form-check-label" for="1">07:00 AM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="2" disabled>
+                    <label class="form-check-label" for="2">08:00 AM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="3">
+                    <label class="form-check-label" for="3">09:00 AM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="4">
+                    <label class="form-check-label" for="4">10:00 AM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="5">
+                    <label class="form-check-label" for="5">11:00 AM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="6">
+                    <label class="form-check-label" for="6">12:00 PM</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="7" disabled>
+                    <label class="form-check-label" for="7">01:00 PM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="8">
+                    <label class="form-check-label" for="8">02:00 PM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="9">
+                    <label class="form-check-label" for="9">03:00 PM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="10">
+                    <label class="form-check-label" for="10">04:00 PM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="11">
+                    <label class="form-check-label" for="11">05:00 PM</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="12">
+                    <label class="form-check-label" for="12">06:00 PM</label>
+                  </div>
+                </div>
+              </div>
+              <p class="text-white text-opacity-50 fst-italic">Note: Every selected time validity limit for 1 hour. Not selectable time is already taken by someone else.</p>
+            </div>
+            <a href="thangs.html" class="btn btn-success rounded-5 px-5 py-3 fw-bolder">Book Now</a>
+<!--            <button type="submit" class="btn btn-success rounded-5 px-5 py-3 fw-bolder">Book Now</button>-->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="main-bg pt-5">
+  <div class="container-md">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class=" pb-4" aria-label="main section title">Recommended Turf</h2>
+      </div>
+
+      <div class="row my-4">
+        <div class="col-12">
+          <div id="owl-carousel" class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="card rounded-4 border-0">
+                <img src="img/turf1.jpg" class="rounded-4 img-card" alt="" aria-label="turf image">
+                <div class="card-body">
+                  <p class="fw-bolder card-title" aria-label="turf title">Turf name is here 1</p>
+                  <a href="schedule.html" class="btn btn-outline-success rounded-5 px-4" aria-label="book now">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card rounded-4 border-0">
+                <img src="img/turf3.jpg" class="rounded-4 img-card" alt="" aria-label="turf image">
+                <div class="card-body">
+                  <p class="fw-bolder card-title" aria-label="turf title">Turf name is here 2</p>
+                  <a href="schedule.html" class="btn btn-outline-success rounded-5 px-4" aria-label="book now">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card rounded-4 border-0">
+                <img src="img/turf2.jpeg" class="rounded-4 img-card" alt="" aria-label="turf image">
+                <div class="card-body">
+                  <p class="fw-bolder card-title" aria-label="turf title">Turf name is here 3</p>
+                  <a href="schedule.html" class="btn btn-outline-success rounded-5 px-4" aria-label="book now">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="card rounded-4 border-0">
+                <img src="img/turf2.jpeg" class="rounded-4 img-card" alt="" aria-label="turf image">
+                <div class="card-body">
+                  <p class="fw-bolder card-title" aria-label="turf title">Turf name is here 3</p>
+                  <a href="schedule.html" class="btn btn-outline-success rounded-5 px-4" aria-label="book now">Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 1919 140">
+    <path fill-opacity="1" d="m-.5 71.5c94-52 260-72 389-72 322.5 0 482.5 72.5 761.5 72.5s380-49.5 549-49.5c93 0 174 9.5 221.5 26.5l-.5 129h-1920z" fill="#171f3b"/>
+  </svg>
+</section>
+<!--footer section-->
+<footer class="py-5 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>All Right Reserved <a href="#"><img src="img/logo.png" style="height: 15px" alt="logo"></a> </p>
+        <p>Copyright © <span id="copyright-year"></span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $("#owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      // nav: true,
+      // dots: true,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:false,
+      responsive: {
+        0: {
+          items: 1
+        },
+        345: {
+          items: 2
+        },
+        700: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+
+* {
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+.nav-bg {
+    background: #121522;
+}
+.hero-text {
+    /*font-family: Roboto;*/
+    font-weight: 600;
+    font-size: 50px;
+}
+.hero-text-color {
+    /*font-weight: 600;*/
+    color: #99d39c;
+}
+.text-color {
+    color: #151515;
+}
+.hero-bg {
+    background: #121522;
+    z-index: -1;
+}
+.hero-content {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+@media (max-width: 767px) {
+    .hero-content {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+}
+.hero-btn {
+    background: linear-gradient(94deg, #03A430 0.67%, #0084CE 107.37%);
+    /*transition: all 0.3s;*/
+}
+/*.hero-btn:hover {
+    transform: scale(1.15%);
+}*/
+.booking-line {
+    width: 4px;
+    height: 243px;
+    background: #9A9A9A;
+    margin: 20px 50px;
+    z-index: 1;
+}
+@media (max-width: 540px) {
+    /*.booking-line{
+        margin-left: 50px;
+    }
+    .prog-1 {
+        position: absolute;
+        left: 10px;
+        !*display: none;*!
+    }*/
+    .prog-text {
+        margin-left: 20px;
+    }
+}
+.prog-1 {
+    position: absolute;
+    top: 25px;
+    left: 33px;
+    z-index: 2;
+}
+.prog-2 {
+    position: absolute;
+    top: 125px;
+    left: 33px;
+    z-index: 2;
+}
+.prog-3 {
+    position: absolute;
+    bottom: 25px;
+    left: 33px;
+    z-index: 2;
+}
+.prog-text {
+    color: #373737;
+    line-height: 28px;
+}
+.prog-text-top {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.prog-text-bottom {
+    font-size: 20px;
+    font-weight: 400;
+}
+.off-canvas {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+@media (min-width: 768px) {
+    .off-canvas {
+        background: transparent;
+    }
+}
+
+
+.main-bg {
+    background: #eeeeee;
+}
+/*.section-head {
+    !*font-size: 50px;*!
+    font-weight: 400;
+    !*height: 100vh;*!
+}*/
+.card-name {
+    font-size: 30px;
+    font-weight: 500;
+    color: #151515;
+}
+.book-card {
+
+}
+.img-card {
+    aspect-ratio: 4 / 3;
+   /* width: 100%;
+    height: 290px;*/
+}
+.schedule-img {
+    aspect-ratio: 16 / 9;
+}
+/*.card {
+    transition: all 0.3s;
+}
+.card:hover {
+    !*transform: scale(1.05);*!
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}*/
+
+
+.contact-bg {
+    background: #e4f9ed;
+}
+
+footer {
+    background: #171f3b;
+}
+
+
+.sign-bg {
+    height: auto;
+    background: #121522;
+}
+.sign-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+.sign-subtext {
+    font-size: 30px;
+    font-weight: 400;
+}
+.sign-content {
+    padding-top: 3rem;
+}
+.schedule-content {
+    padding-top: 1.5rem;
+}
+
